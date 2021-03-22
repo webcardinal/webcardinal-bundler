@@ -13,10 +13,10 @@
     <td></td>
     <td></td>
     <th><pre>webcardinal</pre></th>
-    <th><pre>cardinal   </pre></th>
-    <th><pre>minimal    </pre></th>
-    <th><pre>wiki       </pre></th>
-    <th><pre>all        </pre></th>
+    <th><pre>cardinal</pre></th>
+    <th><pre>minimal </pre></th>
+    <th><pre>wiki    </pre></th>
+    <th><pre>all     </pre></th>
   </tr>
   <tr>
     <td>webcardinal</td>
