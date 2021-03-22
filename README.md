@@ -1,4 +1,6 @@
-### WebCardinal bundles
+# WebCardinal bundles
+
+The content of each bundle can be viewed in the table below:
 
 <table>
 <thead>
@@ -70,3 +72,70 @@
   </tr>
 </tbody>
 </table>
+
+# How to use WebCardinal bundler?
+
+## For a WebApp
+
+1. Clone this repository
+
+```bash
+git clone https://github.com/webcardinal/webcardinal-bundler
+```
+
+2. Install it
+
+```bash
+npm install
+```
+
+3. Install your desired bundle
+
+```bash
+npm run bundle-<BUNDLE_NAME>
+# example npm run bundle-minimal
+```
+
+The generated distribution is now in `/webcardinal` directory.
+
+## For a SSApp
+
+In the `octopus.json` of your workspace.
+
+1. Add WebCardinal as a dependency
+
+```json
+{
+    "name": "webcardinal",
+    "src": "https://github.com/webcardinal/webcardinal-bundler",
+    "actions": [
+        {
+            "type": "smartClone",
+            "target": ".",
+            "collectLog": false
+        },
+        {
+            "type": "execute",
+            "cmd": "cd webcardinal && npm install"
+        },
+        {
+            "type": "execute",
+            "cmd": "cd webcardinal && npm run bundle-<BUNDLE_NAME>"
+        }
+    ]
+}
+```
+
+2. Add distribution in a new Dossier in `build` script
+
+```json
+{
+    "name": "webcardinal-wallet-build",
+    "actions": [
+        {
+            "type": "execute",
+            "cmd": "cd webcardinal && npm run build-dossier"
+        }
+    ]
+}
+```
