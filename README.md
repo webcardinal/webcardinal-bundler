@@ -89,11 +89,17 @@ git clone https://github.com/webcardinal/webcardinal-bundler
 npm install
 ```
 
-3. Install your desired bundle
+3. Bring your desired bundle
 
 ```bash
 npm run bundle-<BUNDLE_NAME>
 # example npm run bundle-minimal
+```
+
+4. Obtain the distribution
+
+```
+npm run build
 ```
 
 The generated distribution is now in `/webcardinal` directory.
@@ -116,11 +122,7 @@ In the `octopus.json` of your workspace.
         },
         {
             "type": "execute",
-            "cmd": "cd webcardinal && npm install"
-        },
-        {
-            "type": "execute",
-            "cmd": "cd webcardinal && npm run bundle-<BUNDLE_NAME>"
+            "cmd": "cd webcardinal && npm install && npm run bundle-<BUNDLE_NAME> && npm run build"
         }
     ]
 }
