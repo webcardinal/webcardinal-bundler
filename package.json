@@ -10,12 +10,13 @@
     "bundle-all": "node node_modules/octopus/scripts/run bundle-all devmode",
     "dev": "node node_modules/octopus/scripts/run build-webcardinal.dev devmode",
     "build": "node node_modules/octopus/scripts/run build-webcardinal devmode",
+    "freeze": "node node_modules/octopus/scripts/freeze bundle-webcardinal bundle-cardinal bundle-minimal bundle-wiki bundle-all",
     "clean": "rm -rf .webcardinal/ webcardinal/",
     "build-dossier": "node ./node_modules/octopus/scripts/buildDossier.js --bundles=./../privatesky/psknode/bundles"
   },
   "dependencies": {},
   "devDependencies": {
-    "octopus": "git+https://github.com/webcardinal/octopus"
+    "octopus": "git+https://github.com/PrivateSky/octopus.git"
   },
   "repository": {
     "type": "git",
