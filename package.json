@@ -10,6 +10,7 @@
     "bundle-all": "node node_modules/octopus/scripts/run bundle-all",
     "dev": "node node_modules/octopus/scripts/run build-webcardinal.dev",
     "build": "node node_modules/octopus/scripts/run build-webcardinal",
+    "release": "node node_modules/octopus/scripts/run bundle-all devmode",
     "freeze": "node node_modules/octopus/scripts/freeze bundle-webcardinal bundle-cardinal bundle-minimal bundle-wiki bundle-all",
     "clean": "rm -rf .webcardinal/ webcardinal/",
     "build-dossier": "node ./node_modules/octopus/scripts/buildDossier.js --bundles=./../privatesky/psknode/bundles"
