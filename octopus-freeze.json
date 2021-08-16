@@ -31,7 +31,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "096a3dee646c2c1353dc13263f62e659e4ac6d59"
+                    "commit": "8db3c85557539d994c101d9f2cc586c996406b48"
                 },
                 {
                     "name": "cardinal-essentials",
@@ -63,7 +63,7 @@
                     "src": "https://github.com/webcardinal/cardinal-barcode",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "2c5f8499b13266f7ca1f3917bcb27d8b9328b6ac"
+                    "commit": "ac13f75142b94d8f9b530e25b89344fdcccc545c"
                 }
             ]
         },
@@ -146,7 +146,7 @@
                     "src": "https://github.com/webcardinal/cardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "365ea260354dda27c444460e4bd8c117e36eb905"
+                    "commit": "77af7d38de5f867608fd6e8f49100d2521841951"
                 },
                 {
                     "name": "cardinal-essentials",
@@ -178,7 +178,7 @@
                     "src": "https://github.com/webcardinal/cardinal-barcode",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "2c5f8499b13266f7ca1f3917bcb27d8b9328b6ac"
+                    "commit": "ac13f75142b94d8f9b530e25b89344fdcccc545c"
                 }
             ]
         },
@@ -253,7 +253,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "096a3dee646c2c1353dc13263f62e659e4ac6d59"
+                    "commit": "8db3c85557539d994c101d9f2cc586c996406b48"
                 }
             ]
         },
@@ -307,7 +307,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "096a3dee646c2c1353dc13263f62e659e4ac6d59"
+                    "commit": "8db3c85557539d994c101d9f2cc586c996406b48"
                 },
                 {
                     "name": "cardinal-essentials",
@@ -398,7 +398,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "096a3dee646c2c1353dc13263f62e659e4ac6d59"
+                    "commit": "8db3c85557539d994c101d9f2cc586c996406b48"
                 },
                 {
                     "name": "cardinal-core",
@@ -406,7 +406,7 @@
                     "src": "https://github.com/webcardinal/cardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "365ea260354dda27c444460e4bd8c117e36eb905"
+                    "commit": "77af7d38de5f867608fd6e8f49100d2521841951"
                 },
                 {
                     "name": "cardinal-essentials",
@@ -438,7 +438,7 @@
                     "src": "https://github.com/webcardinal/cardinal-barcode",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "2c5f8499b13266f7ca1f3917bcb27d8b9328b6ac"
+                    "commit": "ac13f75142b94d8f9b530e25b89344fdcccc545c"
                 }
             ]
         },
