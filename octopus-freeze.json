@@ -10,7 +10,7 @@
                     "src": "https://github.com/webcardinal/cardinal-internals",
                     "target": "./.webcardinal/dependencies",
                     "collectLog": false,
-                    "commit": "0ab0e3d34cf1d31ea8aa3fb9fdc0a1d917dc33da"
+                    "commit": "609d475ff0c3da0d8acd773209ecfae121d0987a"
                 },
                 {
                     "name": "webcardinal-internals",
@@ -31,7 +31,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "348dc35b671b97ad9dec99a9104f2969010a518f"
+                    "commit": "501f3013f2fe475014ff11823f0275d25deedf87"
                 },
                 {
                     "name": "cardinal-essentials",
@@ -125,7 +125,7 @@
                     "src": "https://github.com/webcardinal/cardinal-internals",
                     "target": "./.webcardinal/dependencies",
                     "collectLog": false,
-                    "commit": "0ab0e3d34cf1d31ea8aa3fb9fdc0a1d917dc33da"
+                    "commit": "609d475ff0c3da0d8acd773209ecfae121d0987a"
                 },
                 {
                     "name": "webcardinal-internals",
@@ -146,7 +146,7 @@
                     "src": "https://github.com/webcardinal/cardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "77af7d38de5f867608fd6e8f49100d2521841951"
+                    "commit": "ddb0a93bb03fb1861d74c6b52cee6f9eb5264655"
                 },
                 {
                     "name": "cardinal-essentials",
@@ -253,7 +253,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "348dc35b671b97ad9dec99a9104f2969010a518f"
+                    "commit": "501f3013f2fe475014ff11823f0275d25deedf87"
                 }
             ]
         },
@@ -286,7 +286,7 @@
                     "src": "https://github.com/webcardinal/cardinal-internals",
                     "target": "./.webcardinal/dependencies",
                     "collectLog": false,
-                    "commit": "0ab0e3d34cf1d31ea8aa3fb9fdc0a1d917dc33da"
+                    "commit": "609d475ff0c3da0d8acd773209ecfae121d0987a"
                 },
                 {
                     "name": "webcardinal-internals",
@@ -307,7 +307,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "348dc35b671b97ad9dec99a9104f2969010a518f"
+                    "commit": "501f3013f2fe475014ff11823f0275d25deedf87"
                 },
                 {
                     "name": "cardinal-essentials",
@@ -377,7 +377,7 @@
                     "src": "https://github.com/webcardinal/cardinal-internals",
                     "target": "./.webcardinal/dependencies",
                     "collectLog": false,
-                    "commit": "0ab0e3d34cf1d31ea8aa3fb9fdc0a1d917dc33da"
+                    "commit": "609d475ff0c3da0d8acd773209ecfae121d0987a"
                 },
                 {
                     "name": "webcardinal-internals",
@@ -398,7 +398,7 @@
                     "src": "https://github.com/webcardinal/webcardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "348dc35b671b97ad9dec99a9104f2969010a518f"
+                    "commit": "501f3013f2fe475014ff11823f0275d25deedf87"
                 },
                 {
                     "name": "cardinal-core",
@@ -406,7 +406,7 @@
                     "src": "https://github.com/webcardinal/cardinal-core",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "77af7d38de5f867608fd6e8f49100d2521841951"
+                    "commit": "ddb0a93bb03fb1861d74c6b52cee6f9eb5264655"
                 },
                 {
                     "name": "cardinal-essentials",
