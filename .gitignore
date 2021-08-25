@@ -1,5 +1,6 @@
 .idea
 .webcardinal
+seed
 /dist
 /webcardinal
 /node_modules
