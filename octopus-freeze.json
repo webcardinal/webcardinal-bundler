@@ -63,7 +63,7 @@
                     "src": "https://github.com/webcardinal/cardinal-barcode",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "fa91a12839389c910cc8c27249ddf8bc0f3484cc"
+                    "commit": "45f77a39921d53ca6120869ff6255a5b93514e43"
                 }
             ]
         },
