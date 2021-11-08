@@ -141,3 +141,9 @@ In the `octopus.json` of your workspace.
     ]
 }
 ```
+
+## How to freeze deps HEADs when them are stable
+1. git clone https://github.com/webcardinal/webcardinal-bundler
+2. npm install
+3. npm run release
+4. npm run freeze
