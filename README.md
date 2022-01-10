@@ -141,9 +141,3 @@ In the `octopus.json` of your workspace.
     ]
 }
 ```
-
-## Tutorials for WebCardinal contributors
-
-[How to freeze webcardinal-bundler](https://github.com/orgs/webcardinal/teams/gurus-of-webcardinal/discussions/1)
-
-[Codding format for WebCardinal](https://github.com/orgs/webcardinal/teams/gurus-of-webcardinal/discussions/2)
