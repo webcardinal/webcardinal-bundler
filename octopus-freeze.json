@@ -63,7 +63,7 @@
                     "src": "https://github.com/webcardinal/cardinal-barcode",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "f72a611411309d89da2dea941cac6b6eb6bbd68b"
+                    "commit": "27b84ec2230ae4b4630338b7117d3370ac31a036"
                 }
             ]
         },
@@ -178,7 +178,7 @@
                     "src": "https://github.com/webcardinal/cardinal-barcode",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "f72a611411309d89da2dea941cac6b6eb6bbd68b"
+                    "commit": "27b84ec2230ae4b4630338b7117d3370ac31a036"
                 }
             ]
         },
@@ -438,7 +438,7 @@
                     "src": "https://github.com/webcardinal/cardinal-barcode",
                     "target": "./.webcardinal/components",
                     "collectLog": false,
-                    "commit": "f72a611411309d89da2dea941cac6b6eb6bbd68b"
+                    "commit": "27b84ec2230ae4b4630338b7117d3370ac31a036"
                 }
             ]
         },
