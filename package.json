@@ -1,6 +1,6 @@
 {
   "name": "webcardinal-bundler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bundle constructor of WebCardinal.",
   "scripts": {
     "bundle-webcardinal": "node node_modules/octopus/scripts/run bundle-webcardinal",
