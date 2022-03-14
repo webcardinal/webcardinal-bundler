@@ -1,7 +1,8 @@
-.idea
-.webcardinal
-seed
-/dist
+.idea/
+.vscode/
+.webcardinal/
+/release
 /webcardinal
 /node_modules
+seed
 package-lock.json

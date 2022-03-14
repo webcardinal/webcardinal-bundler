@@ -494,6 +494,226 @@
             ]
         }
     ],
+    "release-bundle-webcardinal": [
+        {
+            "name": "release-bundle-webcardinal",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/production/bundle-webcardinal",
+                    "options": {
+                        "targetedBundle": "bundle-webcardinal",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-webcardinal.dev": [
+        {
+            "name": "release-bundle-webcardinal",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/development/bundle-webcardinal",
+                    "options": {
+                        "targetedBundle": "bundle-webcardinal",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-cardinal": [
+        {
+            "name": "release-bundle-cardinal",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/production/bundle-cardinal",
+                    "options": {
+                        "targetedBundle": "bundle-cardinal",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-cardinal.dev": [
+        {
+            "name": "release-bundle-cardinal",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/development/bundle-cardinal",
+                    "options": {
+                        "targetedBundle": "bundle-cardinal",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-minimal": [
+        {
+            "name": "release-bundle-minimal",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/production/bundle-minimal",
+                    "options": {
+                        "targetedBundle": "bundle-minimal",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-minimal.dev": [
+        {
+            "name": "release-bundle-minimal",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/development/bundle-minimal",
+                    "options": {
+                        "targetedBundle": "bundle-minimal",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-wiki": [
+        {
+            "name": "release-bundle-wiki",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/production/bundle-wiki",
+                    "options": {
+                        "targetedBundle": "bundle-wiki",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-wiki.dev": [
+        {
+            "name": "release-bundle-wiki",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/development/bundle-wiki",
+                    "options": {
+                        "targetedBundle": "bundle-wiki",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-all": [
+        {
+            "name": "release-bundle-all",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/production/bundle-all",
+                    "options": {
+                        "targetedBundle": "bundle-all",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release-bundle-all.dev": [
+        {
+            "name": "release-bundle-all",
+            "actions": [
+                {
+                    "type": "bundleWebCardinalComponents",
+                    "src": "./.webcardinal",
+                    "target": "./release/development/bundle-all",
+                    "options": {
+                        "targetedBundle": "bundle-all",
+                        "availableBundles": "./bundles.json"
+                    }
+                }
+            ]
+        }
+    ],
+    "release": [
+        {
+            "name": "release-webcardinal-for-production",
+            "actions": [
+                {
+                    "type": "execute",
+                    "cmd": "npm run build"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-webcardinal devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-cardinal devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-minimal devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-wiki devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-all devmode"
+                }
+            ]
+        },
+        {
+            "name": "release-webcardinal-for-development",
+            "actions": [
+                {
+                    "type": "execute",
+                    "cmd": "npm run dev"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-cardinal.dev devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-webcardinal.dev devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-minimal.dev devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-wiki.dev devmode"
+                },
+                {
+                    "type": "execute",
+                    "cmd": "node bin/scripts/run release-bundle-all.dev devmode"
+                }
+            ]
+        }
+    ],
     "build-webcardinal": [
         {
             "name": "build-webcardinal-components",

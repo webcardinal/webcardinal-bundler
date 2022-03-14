@@ -1,0 +1,32 @@
+{
+  "bundle-webcardinal": [
+    "cardinal-barcode",
+    "cardinal-essentials",
+    "cardinal-forms",
+    "cardinal-wiki",
+    "webcardinal-core"
+  ],
+  "bundle-cardinal": [
+    "cardinal-barcode",
+    "cardinal-core",
+    "cardinal-essentials",
+    "cardinal-forms",
+    "cardinal-wiki"
+  ],
+  "bundle-minimal": [
+    "webcardinal-core"
+  ],
+  "bundle-wiki": [
+    "cardinal-essentials",
+    "cardinal-wiki",
+    "webcardinal-core"
+  ],
+  "bundle-all": [
+    "cardinal-barcode",
+    "cardinal-core",
+    "cardinal-essentials",
+    "cardinal-forms",
+    "cardinal-wiki",
+    "webcardinal-core"
+  ]
+}
