@@ -5,7 +5,6 @@
   "version": "1.0.6",
   "scripts": {
     "bundle-webcardinal": "node bin/scripts/run bundle-webcardinal",
-    "bundle-cardinal": "node bin/scripts/run bundle-cardinal",
     "bundle-minimal": "node bin/scripts/run bundle-minimal",
     "bundle-wiki": "node bin/scripts/run bundle-wiki",
     "bundle-all": "node bin/scripts/run bundle-all",
@@ -14,7 +13,7 @@
     "clean": "rm -rf .webcardinal/ webcardinal/",
     "update": "npm run clean && node bin/scripts/run bundle-all devmode",
     "release": "node bin/scripts/run release devmode",
-    "freeze": "node node_modules/octopus/scripts/freeze bundle-webcardinal bundle-cardinal bundle-minimal bundle-wiki bundle-all",
+    "freeze": "node node_modules/octopus/scripts/freeze bundle-webcardinal bundle-minimal bundle-wiki bundle-all",
     "build-dossier": "node ./node_modules/octopus/scripts/buildDossier.js --bundles=./../privatesky/psknode/bundles"
   },
   "dependencies": {},

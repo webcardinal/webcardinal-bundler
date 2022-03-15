@@ -6,13 +6,6 @@
     "cardinal-wiki",
     "webcardinal-core"
   ],
-  "bundle-cardinal": [
-    "cardinal-barcode",
-    "cardinal-core",
-    "cardinal-essentials",
-    "cardinal-forms",
-    "cardinal-wiki"
-  ],
   "bundle-minimal": [
     "webcardinal-core"
   ],
