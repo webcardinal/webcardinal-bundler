@@ -366,7 +366,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/production/bundle-webcardinal",
+          "target": "./release/production/bundle-webcardinal/dist",
           "options": {
             "targetedBundle": "bundle-webcardinal",
             "availableBundles": "./bundles.json"
@@ -382,7 +382,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/development/bundle-webcardinal",
+          "target": "./release/development/bundle-webcardinal/dist",
           "options": {
             "targetedBundle": "bundle-webcardinal",
             "availableBundles": "./bundles.json"
@@ -398,7 +398,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/production/bundle-minimal",
+          "target": "./release/production/bundle-minimal/dist",
           "options": {
             "targetedBundle": "bundle-minimal",
             "availableBundles": "./bundles.json"
@@ -414,7 +414,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/development/bundle-minimal",
+          "target": "./release/development/bundle-minimal/dist",
           "options": {
             "targetedBundle": "bundle-minimal",
             "availableBundles": "./bundles.json"
@@ -430,7 +430,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/production/bundle-wiki",
+          "target": "./release/production/bundle-wiki/dist",
           "options": {
             "targetedBundle": "bundle-wiki",
             "availableBundles": "./bundles.json"
@@ -446,7 +446,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/development/bundle-wiki",
+          "target": "./release/development/bundle-wiki/dist",
           "options": {
             "targetedBundle": "bundle-wiki",
             "availableBundles": "./bundles.json"
@@ -462,7 +462,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/production/bundle-all",
+          "target": "./release/production/bundle-all/dist",
           "options": {
             "targetedBundle": "bundle-all",
             "availableBundles": "./bundles.json"
@@ -478,7 +478,7 @@
         {
           "type": "bundleWebCardinalComponents",
           "src": "./.webcardinal",
-          "target": "./release/development/bundle-all",
+          "target": "./release/development/bundle-all/dist",
           "options": {
             "targetedBundle": "bundle-all",
             "availableBundles": "./bundles.json"
