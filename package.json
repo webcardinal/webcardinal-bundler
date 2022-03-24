@@ -14,7 +14,7 @@
     "update": "npm run clean && node bin/scripts/run bundle-all devmode",
     "release": "node bin/scripts/run release devmode",
     "freeze": "node node_modules/octopus/scripts/freeze bundle-webcardinal bundle-minimal bundle-wiki bundle-all",
-    "build-dossier": "node ./node_modules/octopus/scripts/buildDossier.js --bundles=./../privatesky/psknode/bundles"
+    "build-dossier": "node ./node_modules/octopus/scripts/buildDSU.js --bundles=./../privatesky/psknode/bundles"
   },
   "dependencies": {},
   "devDependencies": {
